@@ -1,7 +1,7 @@
 {
-  "name": "DracoPanel",
+  "name": "LightPanel",
   "version": "1.0.0",
-  "description": "DracoPanel is an open source panel for managing and operating game servers and applications built using Node.js with Express and Dockerode.",
+  "description": "LightPanel is an open source panel for managing and operating game servers and applications built using Node.js with Express and Dockerode.",
   "main": "index.js",
   "bin": {
     "HydraPanel": "./exec/bin/index.js"
@@ -15,7 +15,7 @@
     "createUser": "node exec/createUser.js",
     "build:css": "npx tailwindcss -i ./public/tw.conf -o ./public/assets/tailwind.css --watch"
   },
-  "author": "hopingboyz",
+  "author": "itslegalyt_",
   "license": "ISC",
   "dependencies": {
     "@keyv/sqlite": "^3.6.7",
